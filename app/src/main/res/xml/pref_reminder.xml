@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="morning_9"
+        android:title="9 a.m" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="evening_2"
+        android:title="2 p.m" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="evening_7"
+        android:title="7 p.m" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="evening_10"
+        android:title="10 p.m" />
+
+</PreferenceScreen>

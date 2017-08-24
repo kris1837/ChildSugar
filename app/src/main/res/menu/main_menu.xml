@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/share_menu2"
+        android:id="@+id/menu_share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share_white_24dp"
+        />
+
+    <item
+        android:title="@string/email_menu2"
+        android:id="@+id/email"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_email_white_24dp"
+        />
+
+    <item android:title="@string/settings_menu2"
+        android:id="@+id/menu_settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_settings_white_24dp"
+        />
+</menu>
